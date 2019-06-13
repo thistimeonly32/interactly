@@ -1,0 +1,24 @@
+/* body {
+    background: #12070c;
+    background: -moz-linear-gradient(left, #12070c 0%, #0e141a 32%, #1d1211 50%, #010e13 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #12070c), color-stop(32%, #0e141a), color-stop(50%, #1d1211), color-stop(100%, #010e13));
+    background: -webkit-linear-gradient(left, #12070c 0%, #0e141a 32%, #1d1211 50%, #010e13 100%);
+    background: -o-linear-gradient(left, #12070c 0%, #0e141a 32%, #1d1211 50%, #010e13 100%);
+    background: -ms-linear-gradient(left, #12070c 0%, #0e141a 32%, #1d1211 50%, #010e13 100%);
+    background: linear-gradient(to right, #12070c 0%, #0e141a 32%, #1d1211 50%, #010e13 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#12070c', endColorstr='#010e13', GradientType=1);
+    color: white;
+}
+    
+b {
+    height: 100vh;
+}
+
+.bg-custom {
+    background-color: transparent !important;
+} */
+
+.bg-div {
+    /* background-color: rgba(0, 0, 0, 0.3) !important; */
+    /* padding: 0px 5px 0px 20px !important; */
+}
