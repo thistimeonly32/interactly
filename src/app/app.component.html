@@ -1,0 +1,75 @@
+<div class="container-fluid">
+
+  <div class="row">
+    <div class="col-12">
+      <div class="mat-h1" style="float: left;">INTERACTLY</div>
+
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <button mat-button [matMenuTriggerFor]="apps">Apps</button>
+          <mat-menu #apps="matMenu">
+            <button mat-menu-item>Android</button>
+            <button mat-menu-item>iOS</button>
+          </mat-menu>
+        </li>
+        <li class="nav-item">
+          <button mat-button [matMenuTriggerFor]="insight">Insight</button>
+          <mat-menu #insight="matMenu">
+            <button mat-menu-item>Blog</button>
+          </mat-menu>
+        </li>
+        <li class="nav-item">
+          <button mat-button [matMenuTriggerFor]="about">About</button>
+          <mat-menu #about="matMenu">
+            <button mat-menu-item>About Interactly</button>
+          </mat-menu>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col-1" style="background-color: blue">
+
+    </div>
+    <div class="col-6" style="background-color: green">
+      <!-- <div class="res">
+            
+          </div> -->
+      <div style="background-color: black;">
+        <video controls autoplay>
+          <source src="/assets/4-3.mp4" type="video/mp4">
+        </video>
+        <div style="background-color: grey; text-align: center;">
+
+        </div>
+      </div>
+
+    </div>
+    <div class="col-4" style="background-color: purple">
+      <!-- <div class="localVideoCont">
+            
+          </div> -->
+      <div class="row">
+
+        <div class="col-12" style="background-color: pink;">
+
+          <video controls autoplay>
+            <source src="/assets/4-3.mp4" type="video/mp4">
+          </video>
+        </div>
+
+        <div class="col-12" style="background-color: red">
+
+        </div>
+
+      </div>
+
+    </div>
+    <div class="col-1" style="background-color: blue">
+
+    </div>
+  </div>
+
+</div>

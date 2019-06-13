@@ -1,0 +1,35 @@
+.remoteVideoCont {
+    background-color: red;
+    position: relative;
+    width: 100%;
+    padding-top: 75%; /* 4:3 Aspect Ratio */
+ }
+
+ .localVideoCont {
+    background-color: yellow;
+    position: relative;
+    width: 100%;
+    padding-top: 75%; /* 4:3 Aspect Ratio */
+ }
+
+ .res {
+    background-color: yellow;
+
+ }
+ 
+ .text {
+    position:  absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+ }
+
+ video {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
